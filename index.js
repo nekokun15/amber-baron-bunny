@@ -1,6 +1,6 @@
 const Discord = require('discord.js')
 const bot = new Discord.Client()
-const TOKEN = 'ODI3NjI1MTExNTE4NDQ1NjIw.YGdv8w.GQUE8ioaVs74HZMv6oBZD3TuIRc' 
+const TOKEN = 'ODI3NjI1MTExNTE4NDQ1NjIw.YGdv8w.F8sQs9syOX2hp9M6hzFkcy303dg' 
 const prefix = '!amber'
 
 bot.on('teady', () => {
@@ -9,8 +9,7 @@ bot.on('teady', () => {
     bot.user.setPresence({
         activity: {
             name: '!amberhelp',
-            type:  'STREMING',
-            url: 'https://www.twitch.tv/nekoteamokko15' 
+            type:  'STREMING', 
         },
         status: 'dnd'
     })
